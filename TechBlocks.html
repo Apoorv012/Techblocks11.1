@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Techblocks 11.1</title>
+
+  <!-- Google font -->
+  
+  <link rel="stylesheet" href="./Techblocks.css">
+</head>
+
+<body>
+
+  <!-- Opening Video -->
+  <div id="video-overlay">
+    <video autoplay muted playsinline id="intro-video">
+      <source src="IEEE Orientation PPT'25.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <!-- Logo Bar -->
+  <div class="logo-bar">
+    <img src="ieee_white.png" alt="IEEE Logo">
+    <img src="wie_white.png" alt="WIE Logo">
+  </div>
+
+  <div class="title">Techblocks 11.1</div>
+
+  <!-- About -->
+  <section class="about">
+    <h2>About Techblocks</h2>
+    <p>
+      Techblocks, the first flagship event of IEEE SB JIIT, enhances your skills in a broad spectrum of technical domains. 
+      It is a five-day phenomenal event where the entire team collectively teaches the participants in their chosen domain of interest.
+    </p>
+  </section>
+
+  <!-- Domains -->
+  <section>
+    <h2>Domains</h2>
+    <div class="domains">
+      <div class="domain" data-timeline="web">
+        <div class="label">Web Development</div>
+        <div class="venue">Venue: CL 1</div>
+      </div>
+      <div class="domain" data-timeline="ai">
+        <div class="label">Agentic AI</div>
+        <div class="venue">Venue: CL 2</div>
+      </div>
+      <div class="domain" data-timeline="app">
+        <div class="label">App Development</div>
+        <div class="venue">Venue: CL 3</div>
+      </div>
+      <div class="domain" data-timeline="hardware">
+        <div class="label">Hardware Design Basics</div>
+        <div class="venue">Venue: LT 3</div>
+      </div>
+    </div>
+  </section>
+
+ <!-- Register -->
+<div class="register-section">
+  <button class="register-btn" id="register-btn">Register Now</button>
+  <p class="register-text">Register now and get a surprise 🎁</p>
+  <p id="hidden-link" class="hidden-link">
+    <a href="https://www.google.com/url?q=https://drive.google.com/drive/folders/1IHn2lSJNavtA1pHzL3ovYpJTvJU0_PQP?usp%3Ddrive_link&sa=D&source=editors&ust=1757577839563080&usg=AOvVaw0bPDAPwqhL5MELMcrzDc27" 
+       target="_blank">
+      Click here for your surprise
+    </a>
+  </p>
+</div>
+
+
+
+  <!-- Highlights -->
+  <section>
+    <h2>Last Year Highlights</h2>
+    <div class="carousel-container">
+      <div class="carousel-track">
+        <img src="i1.jpeg" alt="Highlight 1">
+        <img src="i2.jpeg" alt="Highlight 2">
+        <img src="i3.jpg" alt="Highlight 3">
+        <img src="i4.jpeg" alt="Highlight 4">
+        <img src="i5.jpg" alt="Highlight 5">
+        <img src="i1.jpeg" alt="Highlight 1">
+        <img src="i2.jpeg" alt="Highlight 2">
+        <img src="i3.jpg" alt="Highlight 3">
+        <img src="i4.jpeg" alt="Highlight 4">
+        <img src="i5.jpg" alt="Highlight 5">
+      </div>
+    </div>
+  </section>
+
+ <!-- QR Codes -->
+<section>
+  <h2>Connect With Us</h2>
+  <div class="qr-container">
+    <img src="TBCommunity.jpg" alt="TB Community" class="qr" 
+         data-label="ieeesbjiit"
+         data-link="https://chat.whatsapp.com/IiDG1qenVrF2fIJnQ66ZX7?mode=ems_wa_t">
+    <img src="helpdesk whatsapp.png" alt="WhatsApp QR" class="qr" 
+         data-label="IEEE Helpdesk"
+         data-link="https://chat.whatsapp.com/FHuP7YZUhuN3jOepPO3YSE">
+  </div>
+</section>
+
+
+  <!-- Modal Overlays -->
+  <div class="timeline-overlay"></div>
+
+  <!-- Timeline Modal -->
+  <div id="timeline-modal" class="timeline">
+    <button class="close-btn">✖</button>
+    <div id="timeline-content"></div>
+  </div>
+
+  <!-- QR Modal -->
+  <div id="qr-modal" class="qr-modal">
+    <button class="close-btn">✖</button>
+    <img id="qr-modal-img" src="" alt="QR Code">
+    <p id="qr-modal-text"></p>
+  </div>
+
+  <script src="./Techblocks.js"></script>
+
+<!-- Bottom Left Socials Image -->
+<img src="socials_white.png" alt="Socials" class="socials-img">
+
+</body>
+</html>
